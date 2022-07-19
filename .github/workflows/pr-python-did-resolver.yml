@@ -1,10 +1,7 @@
 name: CI [did-resolver]
 
 on:
-  push:
-    paths:
-      - "did_resolver/**"
-      - ".github/**"
+  pull_request
 
 jobs:
   test:
