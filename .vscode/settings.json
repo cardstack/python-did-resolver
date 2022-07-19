@@ -1,0 +1,14 @@
+{
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/__pypackages__/3.10/lib",
+    "${workspaceFolder}/__pypackages__/3.9/lib"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/__pypackages__/3.10/lib",
+    "${workspaceFolder}/__pypackages__/3.9/lib"
+  ],
+  "python.formatting.provider": "black"
+}
