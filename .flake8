@@ -1,0 +1,4 @@
+[flake8]
+exclude =
+  __pypackages__/
+ignore = E501, W503, F401
